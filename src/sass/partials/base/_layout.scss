@@ -15,5 +15,10 @@
     width: 30%;
     padding: 0 $siteGutter;
     border-left: 2px solid $brand-grey;
+    transition: all .5s;
+
+    &.js-hide {
+      transform: translateX($siteWidth + 30%);
+    }
   }
 }

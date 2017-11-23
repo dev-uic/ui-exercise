@@ -459,6 +459,10 @@ template {
   width: 30%;
   padding: 0 12px;
   border-left: 2px solid rgba(26, 26, 26, 0.8);
+  transition: all .5s;
+}
+.container .sidebar.js-hide {
+  transform: translateX(130%);
 }
 
 body {
