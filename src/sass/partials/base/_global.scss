@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*
+  Alignment
+*/
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}

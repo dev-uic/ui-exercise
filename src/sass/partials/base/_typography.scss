@@ -1,0 +1,26 @@
+@import '../functions/em';
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: em(16);
+  line-height: 1.3em;
+  background-color: $white;
+  color: $brand-grey;
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: $black;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

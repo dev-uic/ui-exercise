@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: $siteGutter;
+  border-bottom: 5px solid $brand-blue;
+
+  &__logo-wrapper {
+    border-right: 2px solid $brand-grey;
+  }
+
+  &__logo {
+    width: $logoWidth;
+  }
+
+  &__logo-link {
+    display: block;
+  }
+}

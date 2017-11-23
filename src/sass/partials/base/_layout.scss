@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  padding: $siteGutter *2;
+  margin: 0 auto 0 -$siteGutter;
+  width: $siteWidth;
+
+  .content {
+    width: 70%;
+    padding: 0 $siteGutter;
+  }
+
+  .sidebar {
+    width: 30%;
+    padding: 0 $siteGutter;
+    border-left: 2px solid $brand-grey;
+  }
+}
